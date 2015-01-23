@@ -4,11 +4,83 @@
 <array>
 	<dict>
 		<key>name</key>
-		<string></string>
+		<string>Chicago</string>
 		<key>latitude</key>
-		<integer>0</integer>
+		<integer>41.9452343</integer>
 		<key>longitude</key>
-		<integer>0</integer>
+		<integer>-87.6482463</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Milwaukee</string>
+		<key>latitude</key>
+		<integer>43.0578914</integer>
+		<key>longitude</key>
+		<integer>-87.96743</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>New York</string>
+		<key>latitude</key>
+		<integer>40.7033121</integer>
+		<key>longitude</key>
+		<integer>-73.979681</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Los Angeles</string>
+		<key>latitude</key>
+		<integer>34.0204989</integer>
+		<key>longitude</key>
+		<integer>-118.4117325</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Miami</string>
+		<key>latitude</key>
+		<integer>25.782324</integer>
+		<key>longitude</key>
+		<integer>-80.2310801</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Seattle</string>
+		<key>latitude</key>
+		<integer>47.614848</integer>
+		<key>longitude</key>
+		<integer>-122.3359059</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Houston</string>
+		<key>latitude</key>
+		<integer>29.817178</integer>
+		<key>longitude</key>
+		<integer>-95.4012915</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Kansas City</string>
+		<key>latitude</key>
+		<integer>39.091919</integer>
+		<key>longitude</key>
+		<integer>-94.5757195</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Philadelphia</string>
+		<key>latitude</key>
+		<integer>40.0047528</integer>
+		<key>longitude</key>
+		<integer>-75.1180329</integer>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Denver</string>
+		<key>latitude</key>
+		<integer>39.7643389</integer>
+		<key>longitude</key>
+		<integer>-104.8551114</integer>
 	</dict>
 </array>
 </plist>
