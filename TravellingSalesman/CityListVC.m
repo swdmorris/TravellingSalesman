@@ -7,6 +7,7 @@
 //
 
 #import "CityListVC.h"
+#import "City.h"
 
 @interface CityListVC ()
 
@@ -33,6 +34,11 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"CityCell"];
+    
+    City *city = [self.cities objectAtIndex:indexPath.row];
+    cell.textLabel.text = city.name;
+    // show checkmark if city is selected
+    cell.accessoryType = city.isSelected ? UITableViewCellAccessoryCheckmark : UITableViewCellAccessoryNone;
     
     return cell;
 }

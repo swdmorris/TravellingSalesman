@@ -10,6 +10,8 @@
 
 @interface City : NSObject
 
+@property BOOL isSelected;
+
 - (id)initWithDictionary:(NSDictionary *)data;
 
 - (NSString *)name;

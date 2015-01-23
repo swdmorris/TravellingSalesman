@@ -19,6 +19,7 @@
 		24AF19381A71E29F00879591 /* CityListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF19371A71E29F00879591 /* CityListVC.m */; };
 		24AF193B1A71E2EE00879591 /* ResultsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF193A1A71E2EE00879591 /* ResultsVC.m */; };
 		24AF19401A71E4DD00879591 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF193F1A71E4DD00879591 /* City.m */; };
+		24AF19421A71E77400879591 /* cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = 24AF19411A71E77400879591 /* cities.plist */; };
 		5518ED9D51329D2719B0CDE0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68FE7D8B58917220BB41E11C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		24AF193A1A71E2EE00879591 /* ResultsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsVC.m; sourceTree = "<group>"; };
 		24AF193E1A71E4DD00879591 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
 		24AF193F1A71E4DD00879591 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		24AF19411A71E77400879591 /* cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cities.plist; sourceTree = "<group>"; };
 		66CF0AE4B9ADA0B860E85404 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		68FE7D8B58917220BB41E11C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -121,6 +123,7 @@
 			children = (
 				24AF19071A71E10300879591 /* Info.plist */,
 				24AF19081A71E10300879591 /* main.m */,
+				24AF19411A71E77400879591 /* cities.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				24AF19121A71E10300879591 /* Main.storyboard in Resources */,
 				24AF19171A71E10300879591 /* LaunchScreen.xib in Resources */,
 				24AF19141A71E10300879591 /* Images.xcassets in Resources */,
+				24AF19421A71E77400879591 /* cities.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
