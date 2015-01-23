@@ -10,4 +10,6 @@
 
 @interface Utils : NSObject
 
++ (NSArray *)citiesInMostEfficientOrderFromCities:(NSArray *)cities;
+
 @end

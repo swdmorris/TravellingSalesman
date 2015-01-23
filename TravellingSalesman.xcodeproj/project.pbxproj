@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		240E27521A72AB02006ADF34 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 240E27511A72AB02006ADF34 /* Utils.m */; };
+		240E27561A72ACF0006ADF34 /* NSArray+Customizations.m in Sources */ = {isa = PBXBuildFile; fileRef = 240E27551A72ACF0006ADF34 /* NSArray+Customizations.m */; };
 		24AF19091A71E10300879591 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF19081A71E10300879591 /* main.m */; };
 		24AF190C1A71E10300879591 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF190B1A71E10300879591 /* AppDelegate.m */; };
 		24AF19121A71E10300879591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24AF19101A71E10300879591 /* Main.storyboard */; };
@@ -39,6 +40,8 @@
 		19BFB33458DB401A8C21A63B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		240E27501A72AB02006ADF34 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		240E27511A72AB02006ADF34 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		240E27541A72ACF0006ADF34 /* NSArray+Customizations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Customizations.h"; sourceTree = "<group>"; };
+		240E27551A72ACF0006ADF34 /* NSArray+Customizations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Customizations.m"; sourceTree = "<group>"; };
 		24AF19031A71E10300879591 /* TravellingSalesman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravellingSalesman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24AF19071A71E10300879591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24AF19081A71E10300879591 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -88,6 +91,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		240E27531A72ACDA006ADF34 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				240E27541A72ACF0006ADF34 /* NSArray+Customizations.h */,
+				240E27551A72ACF0006ADF34 /* NSArray+Customizations.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		24AF18FA1A71E10300879591 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +123,7 @@
 		24AF19051A71E10300879591 /* TravellingSalesman */ = {
 			isa = PBXGroup;
 			children = (
+				240E27531A72ACDA006ADF34 /* Categories */,
 				24AF19431A71E94F00879591 /* Helpers */,
 				24AF193D1A71E4CD00879591 /* Models */,
 				24AF193C1A71E4C600879591 /* Views */,
@@ -358,6 +371,7 @@
 				24AF19381A71E29F00879591 /* CityListVC.m in Sources */,
 				24AF193B1A71E2EE00879591 /* ResultsVC.m in Sources */,
 				24AF19091A71E10300879591 /* main.m in Sources */,
+				240E27561A72ACF0006ADF34 /* NSArray+Customizations.m in Sources */,
 				24AF19351A71E29500879591 /* MapVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,5 +11,6 @@
 @interface NSArray (Customizations)
 
 - (id)randomElement;
+- (NSArray *)shuffledArray;
 
 @end

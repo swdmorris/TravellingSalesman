@@ -43,6 +43,22 @@ NSString *SEGUE_MAP = @"map", *SEGUE_CITIES = @"cities", *SEGUE_RESULTS = @"resu
     self.cityNamesLabel.text = [cityNames copy];
 }
 
+- (NSArray *)cities
+{
+    if (! _cities) {
+        NSMutableArray *mutableCities = [[NSMutableArray alloc] init];
+        for (City *city in [UserDefaults cities]) {
+            if (city.isSelected) {
+                [mutableCities addObject:city];
+            }
+        }
+        
+        _cities = [mutableCities copy];
+    }
+    
+    return _cities;
+}
+
 #pragma mark- Actions
 
 - (IBAction)editCitiesButtonPressed
@@ -53,6 +69,8 @@ NSString *SEGUE_MAP = @"map", *SEGUE_CITIES = @"cities", *SEGUE_RESULTS = @"resu
 - (IBAction)calculateButtonPressed
 {
     NSLog(@"calculate");
+    NSArray *citiesInOrder = [Utils citiesInMostEfficientOrderFromCities:self.cities];
+    NSLog(@"calculation done");
 }
 
 @end

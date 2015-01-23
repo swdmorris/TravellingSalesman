@@ -21,4 +21,20 @@
     }
 }
 
+- (void)shuffle
+{
+    for (NSInteger i = (NSInteger)[self count] - 1; i > 0; i--)
+    {
+        NSUInteger j = (NSUInteger)arc4random_uniform((uint32_t)i + 1);
+        [[self mutableCopy] exchangeObjectAtIndex:j withObjectAtIndex:(NSUInteger)i];
+    }
+}
+
+- (NSArray *)shuffledArray
+{
+    NSMutableArray *copy = [NSMutableArray arrayWithArray:self];
+    [copy shuffle];
+    return copy;
+}
+
 @end
