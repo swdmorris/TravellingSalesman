@@ -6,81 +6,81 @@
 		<key>name</key>
 		<string>Chicago</string>
 		<key>latitude</key>
-		<integer>41.9452343</integer>
+		<real>41.9452343</real>
 		<key>longitude</key>
-		<integer>-87.6482463</integer>
+		<real>-87.6482463</real>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>Milwaukee</string>
 		<key>latitude</key>
-		<integer>43.0578914</integer>
+		<real>43.0578914</real>
 		<key>longitude</key>
-		<integer>-87.96743</integer>
+		<real>-87.96743</real>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>New York</string>
 		<key>latitude</key>
-		<integer>40.7033121</integer>
+		<real>40.7033121</real>
 		<key>longitude</key>
-		<integer>-73.979681</integer>
+		<real>-73.979681</real>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>Los Angeles</string>
 		<key>latitude</key>
-		<integer>34.0204989</integer>
+		<real>34.0204989</real>
 		<key>longitude</key>
-		<integer>-118.4117325</integer>
+		<real>-118.4117325</real>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>Miami</string>
 		<key>latitude</key>
-		<integer>25.782324</integer>
+		<real>25.782324</real>
 		<key>longitude</key>
-		<integer>-80.2310801</integer>
+		<real>-80.2310801</real>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>Seattle</string>
 		<key>latitude</key>
-		<integer>47.614848</integer>
+		<real>47.614848</real>
 		<key>longitude</key>
-		<integer>-122.3359059</integer>
+		<real>-122.3359059</real>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>Houston</string>
 		<key>latitude</key>
-		<integer>29.817178</integer>
+		<real>29.817178</real>
 		<key>longitude</key>
-		<integer>-95.4012915</integer>
+		<real>-95.4012915</real>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>Kansas City</string>
 		<key>latitude</key>
-		<integer>39.091919</integer>
+		<real>39.091919</real>
 		<key>longitude</key>
-		<integer>-94.5757195</integer>
+		<real>-94.5757195</real>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>Philadelphia</string>
 		<key>latitude</key>
-		<integer>40.0047528</integer>
+		<real>40.0047528</real>
 		<key>longitude</key>
-		<integer>-75.1180329</integer>
+		<real>-75.1180329</real>
 	</dict>
 	<dict>
 		<key>name</key>
 		<string>Denver</string>
 		<key>latitude</key>
-		<integer>39.7643389</integer>
+		<real>39.7643389</real>
 		<key>longitude</key>
-		<integer>-104.8551114</integer>
+		<real>-104.8551114</real>
 	</dict>
 </array>
 </plist>

@@ -7,6 +7,7 @@
 //
 
 #import "CityListVC.h"
+#import "UserDefaults.h"
 #import "City.h"
 
 @interface CityListVC ()
@@ -18,6 +19,13 @@
 @end
 
 @implementation CityListVC
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    
+    self.cities = [UserDefaults cities];
+}
 
 #pragma mark- UITableView datasource/delegate
 
