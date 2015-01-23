@@ -51,4 +51,11 @@
     return cell;
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    City *city = [self.cities objectAtIndex:indexPath.row];
+    city.isSelected = ! city.isSelected;
+    [self.tableView reloadData];
+}
+
 @end

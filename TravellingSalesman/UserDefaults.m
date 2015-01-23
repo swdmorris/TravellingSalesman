@@ -20,6 +20,7 @@ static NSArray *cities;
         NSArray *cityPListArray = [[NSArray alloc] initWithContentsOfFile:citiesPath];
         for (NSDictionary *cityDictionary in cityPListArray) {
             City *city = [[City alloc] initWithDictionary:cityDictionary];
+            city.isSelected = YES;
             [mutableCities addObject:city];
         }
         
