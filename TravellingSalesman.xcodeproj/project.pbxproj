@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		240E27521A72AB02006ADF34 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 240E27511A72AB02006ADF34 /* Utils.m */; };
 		24AF19091A71E10300879591 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF19081A71E10300879591 /* main.m */; };
 		24AF190C1A71E10300879591 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF190B1A71E10300879591 /* AppDelegate.m */; };
 		24AF19121A71E10300879591 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24AF19101A71E10300879591 /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 
 /* Begin PBXFileReference section */
 		19BFB33458DB401A8C21A63B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		240E27501A72AB02006ADF34 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		240E27511A72AB02006ADF34 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		24AF19031A71E10300879591 /* TravellingSalesman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravellingSalesman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24AF19071A71E10300879591 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24AF19081A71E10300879591 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -187,6 +190,8 @@
 			children = (
 				24AF19441A71E96500879591 /* UserDefaults.h */,
 				24AF19451A71E96500879591 /* UserDefaults.m */,
+				240E27501A72AB02006ADF34 /* Utils.h */,
+				240E27511A72AB02006ADF34 /* Utils.m */,
 			);
 			name = Helpers;
 			sourceTree = "<group>";
@@ -347,6 +352,7 @@
 				24AF192F1A71E23C00879591 /* CustomVC.m in Sources */,
 				24AF19461A71E96500879591 /* UserDefaults.m in Sources */,
 				24AF19321A71E27B00879591 /* MainVC.m in Sources */,
+				240E27521A72AB02006ADF34 /* Utils.m in Sources */,
 				24AF19401A71E4DD00879591 /* City.m in Sources */,
 				24AF190C1A71E10300879591 /* AppDelegate.m in Sources */,
 				24AF19381A71E29F00879591 /* CityListVC.m in Sources */,

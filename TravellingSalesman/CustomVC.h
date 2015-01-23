@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "UserDefaults.h"
+#import "Utils.h"
 
 @interface CustomVC : UIViewController
 
