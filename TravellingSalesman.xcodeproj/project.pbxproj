@@ -18,6 +18,7 @@
 		24AF19351A71E29500879591 /* MapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF19341A71E29500879591 /* MapVC.m */; };
 		24AF19381A71E29F00879591 /* CityListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF19371A71E29F00879591 /* CityListVC.m */; };
 		24AF193B1A71E2EE00879591 /* ResultsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF193A1A71E2EE00879591 /* ResultsVC.m */; };
+		24AF19401A71E4DD00879591 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AF193F1A71E4DD00879591 /* City.m */; };
 		5518ED9D51329D2719B0CDE0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 68FE7D8B58917220BB41E11C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +55,8 @@
 		24AF19371A71E29F00879591 /* CityListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityListVC.m; sourceTree = "<group>"; };
 		24AF19391A71E2EE00879591 /* ResultsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsVC.h; sourceTree = "<group>"; };
 		24AF193A1A71E2EE00879591 /* ResultsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsVC.m; sourceTree = "<group>"; };
+		24AF193E1A71E4DD00879591 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		24AF193F1A71E4DD00879591 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
 		66CF0AE4B9ADA0B860E85404 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		68FE7D8B58917220BB41E11C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -100,6 +103,8 @@
 		24AF19051A71E10300879591 /* TravellingSalesman */ = {
 			isa = PBXGroup;
 			children = (
+				24AF193D1A71E4CD00879591 /* Models */,
+				24AF193C1A71E4C600879591 /* Views */,
 				24AF192C1A71E22600879591 /* View Controllers */,
 				24AF190A1A71E10300879591 /* AppDelegate.h */,
 				24AF190B1A71E10300879591 /* AppDelegate.m */,
@@ -152,6 +157,22 @@
 				24AF193A1A71E2EE00879591 /* ResultsVC.m */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		24AF193C1A71E4C600879591 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		24AF193D1A71E4CD00879591 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				24AF193E1A71E4DD00879591 /* City.h */,
+				24AF193F1A71E4DD00879591 /* City.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 		32780128AA7FB959412D9ADF /* Frameworks */ = {
@@ -308,6 +329,7 @@
 			files = (
 				24AF192F1A71E23C00879591 /* CustomVC.m in Sources */,
 				24AF19321A71E27B00879591 /* MainVC.m in Sources */,
+				24AF19401A71E4DD00879591 /* City.m in Sources */,
 				24AF190C1A71E10300879591 /* AppDelegate.m in Sources */,
 				24AF19381A71E29F00879591 /* CityListVC.m in Sources */,
 				24AF193B1A71E2EE00879591 /* ResultsVC.m in Sources */,
