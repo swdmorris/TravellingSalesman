@@ -12,7 +12,7 @@
 
 @implementation Utils
 
-#define kNumberOfTrials 1000
+#define kNumberOfTrials 100000
 + (NSArray *)citiesInMostEfficientOrderFromCities:(NSArray *)cities
 {
     float minDistance = MAXFLOAT;
@@ -30,6 +30,8 @@
             shortestCityRoute = cityList;
         }
     }
+    
+    NSLog(@"Shortest Distance: %f", minDistance);
     
     return shortestCityRoute;
 }

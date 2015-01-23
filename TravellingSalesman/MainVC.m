@@ -68,9 +68,9 @@ NSString *SEGUE_MAP = @"map", *SEGUE_CITIES = @"cities", *SEGUE_RESULTS = @"resu
 
 - (IBAction)calculateButtonPressed
 {
-    NSLog(@"calculate");
+    NSLog(@"start calculation");
     NSArray *citiesInOrder = [Utils citiesInMostEfficientOrderFromCities:self.cities];
-    NSLog(@"calculation done");
+    NSLog(@"calculation done: %@", citiesInOrder);
 }
 
 @end

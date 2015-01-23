@@ -29,6 +29,13 @@
     return self;
 }
 
+- (NSString *)description
+{
+    NSString *superDescription = [super description];
+    
+    return [NSString stringWithFormat:@"%@ - %@", superDescription, self.name];
+}
+
 - (NSString *)name
 {
     return [self.data objectForKey:@"name"];
