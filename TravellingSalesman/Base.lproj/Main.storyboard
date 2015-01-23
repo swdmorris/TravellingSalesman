@@ -37,13 +37,28 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zIU-cs-i3C">
+                                <rect key="frame" x="125" y="444" width="70" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="GbH-Qd-O3X"/>
+                                    <constraint firstAttribute="width" constant="70" id="gRm-xF-cfc"/>
+                                </constraints>
+                                <state key="normal" title="Go">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="calculateButtonPressed" destination="vXZ-lx-hvc" eventType="touchUpInside" id="7Ba-mf-GOa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="oKr-ji-Maj" firstAttribute="centerY" secondItem="rwm-BE-vek" secondAttribute="centerY" constant="4.5" id="168-Ql-DG7"/>
                             <constraint firstItem="rwm-BE-vek" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="NpJ-ub-rYO"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="zIU-cs-i3C" secondAttribute="bottom" constant="20" id="RyD-uJ-dMQ"/>
                             <constraint firstItem="oKr-ji-Maj" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="V5O-ad-DDA"/>
                             <constraint firstItem="oKr-ji-Maj" firstAttribute="leading" secondItem="rwm-BE-vek" secondAttribute="trailing" constant="8" id="m7r-Zw-Anv"/>
+                            <constraint firstAttribute="centerX" secondItem="zIU-cs-i3C" secondAttribute="centerX" id="nsn-pb-P6Q"/>
                             <constraint firstItem="oKr-ji-Maj" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="tdw-zy-hdI"/>
                         </constraints>
                     </view>

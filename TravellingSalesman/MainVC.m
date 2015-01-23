@@ -50,4 +50,9 @@ NSString *SEGUE_MAP = @"map", *SEGUE_CITIES = @"cities", *SEGUE_RESULTS = @"resu
     [self performSegueWithIdentifier:SEGUE_CITIES sender:self];
 }
 
+- (IBAction)calculateButtonPressed
+{
+    NSLog(@"calculate");
+}
+
 @end
